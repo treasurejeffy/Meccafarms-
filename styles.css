@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #38a86e;
+    font-weight: bold;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('/images/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero-section .btn {
+    background-color: white;
+    color: #38a86e;
+    font-weight: bold;
+}
+
+/* About Section */
+#about img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Mission Section */
+#mission {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#mission h2 {
+    margin-bottom: 20px;
+}
+
+#mission p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* How It Works Section */
+#how-it-works {
+    padding: 50px 0;
+}
+
+#how-it-works h2 {
+    margin-bottom: 30px;
+}
+
+#how-it-works h4 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#how-it-works p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Our Solution Section */
+#solution {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#solution .col-md-4 img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+#solution h4 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Testimony Section */
+#testimony {
+    padding: 50px 0;
+}
+
+.testimonial {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial h6 {
+    color: #38a86e;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #38a86e;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.move-top {
+    display: flex; /* Hidden by default */
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 1.5rem;
+    background-color: #38a86e;
+    color: white;
+    padding: 5px 0 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.move-top:hover {
+    background-color: #2e8158;
+}
+
